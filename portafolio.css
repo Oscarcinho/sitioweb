@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap');
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+html {
+    scroll-behavior: smooth;
+}
+/* sección inicio */
+#inicio {
+    background: url("assets/img/fondo.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#inicio .contenido header {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#inicio .contenido header .contenido-header {
+    max-width: 2000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 20px
+}
+#inicio .contenido header .contenido-header h1 {
+    text-align: center;
+    color: whitesmoke   ;
+    margin-right: 104px;
+}
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header nav ul a:hover {
+    color: cyan;
+}
+#inicio .contenido header .contenido-header .iconoRedes {
+    display: flex;
+    flex-direction: column;
+    padding: 5px
+}
+#inicio .contenido header .contenido-header .iconoRedes a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+}
+#inicio .contenido header .contenido-header .iconoRedes a :hover {
+    color: cyan;
+    
+}
+#inicio .contenido header .contenido-header .contactoIcono {
+    color: white;
+}
+#inicio .contenido .presentacion {
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    columns: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 40px;
+    /* margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px; */
+}
+#inicio .contenido .presentacion h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    color: brown;
+
+}
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+#inicio .contenido .presentacion a:hover {
+    background-color: beige;
+}
+#icono-nav {
+
+}
+#inicio h1 {
+    text-align: left;
+}
+/* sección sobre mí */
+#sobremi {
+    max-width: 2000px;
+    margin: auto;
+    padding: 100px 15px;
+    color: whitesmoke;
+    display: flex;
+    background: linear-gradient( black, rgba(66, 66, 66, 0.8)), url(assets/img/fondobonito.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* padding: 100px 0; */
+    text-align: center;
+}
+#sobremi .contenidoFoto .fotisPabe {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+#sobremi .sobremi{
+    text-align: center;
+    padding: 100px
+}
+#sobremi .sobremi .titulo-sobremi {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+#sobremi .sobremi h2 {
+    padding: px;
+}
+#sobremi .sobremi h3 {
+    padding: 10px;
+}
+#sobremi .sobremi p {
+    padding: 20px;
+}
+/* seccion resumen */
+#resumen {
+    max-width: 2000px;
+    margin: auto;
+    padding: 100px;
+    color: #000000;
+    display: flex;
+    background: linear-gradient(whitesmoke, rgba(66, 66, 66, 0.8)), url(assets/img/parquecentral.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+    /* background: linear-gradient(gray, rgba(20,20,20,0.9)), url()
+    justify-content: center; */
+}
+#resumen .tituloResumen {
+    display: flex;
+    padding: 20px;
+    font-size: 45px;
+    justify-content: center;
+    text-decoration-line: underline;
+}
+#resumen .resumen h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+/* sección redes sociales y contacto tlfn */
+#contacto  {
+    max-width: 2000px;
+    margin: 20;
+    padding: 30px;
+    color: #cfcfcf;
+    display: flex;
+    background: rgba(0, 0, 0, 0.973);
+    justify-content: center;
+}
+
+#contacto .contacto .tituloSocial {
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+#contacto .contacto .tituloSocial #contacto {
+    color: purple;
+}
